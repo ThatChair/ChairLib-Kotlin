@@ -1,4 +1,4 @@
-package math
+package math.spline
 
 import kotlin.math.atan2
 import kotlin.math.pow

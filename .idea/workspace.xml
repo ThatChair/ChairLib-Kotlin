@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a33eb0f-35d9-43e0-9cda-32b4f5506ac9" name="Changes" comment="">
+    <list default="true" id="2a33eb0f-35d9-43e0-9cda-32b4f5506ac9" name="Changes" comment="added spline package">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/math/spline/SeilerCubicSpline.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/math/CubicSpline.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/math/CubicSpline.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/math/CubicSplineTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/math/CubicSplineTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/math/CubicSpline.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/math/spline/CubicSpline.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/math/spline/CubicSplineTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/math/spline/CubicSplineTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -79,6 +79,9 @@
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="math.spline" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="math" />
@@ -174,6 +177,37 @@
       <option name="presentableId" value="Default" />
       <updated>1718425880957</updated>
     </task>
+    <task id="LOCAL-00001" summary="added CubicSpline and unit tests">
+      <option name="closed" value="true" />
+      <created>1718429035286</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718429035286</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added CubicSpline and unit tests">
+      <option name="closed" value="true" />
+      <created>1718429058479</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718429058479</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added spline package">
+      <option name="closed" value="true" />
+      <created>1718430832721</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1718430832721</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="removed todo" />
+    <MESSAGE value="added CubicSpline and unit tests" />
+    <MESSAGE value="added spline package" />
+    <option name="LAST_COMMIT_MESSAGE" value="added spline package" />
   </component>
 </project>
