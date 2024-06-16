@@ -1,4 +1,6 @@
 plugins {
+    java
+    `maven-publish`
     kotlin("jvm") version "1.9.23"
 }
 
@@ -11,6 +13,19 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+}
+
+java {
+    withSourcesJar()
+    withJavadocJar()
+}
+
+publishing {
+    publications {
+        create<MavenPublication>("maven") {
+            from(components["java"])
+        }
+    }
 }
 
 tasks.test {

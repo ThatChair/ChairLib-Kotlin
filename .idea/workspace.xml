@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a33eb0f-35d9-43e0-9cda-32b4f5506ac9" name="Changes" comment="added spline package">
+    <list default="true" id="2a33eb0f-35d9-43e0-9cda-32b4f5506ac9" name="Changes" comment="added more stuff from other things ive worked on">
       <change afterPath="$PROJECT_DIR$/src/main/kotlin/math/spline/SeilerCubicSpline.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/math/CubicSpline.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/math/spline/CubicSpline.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/math/spline/CubicSplineTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/math/spline/CubicSplineTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,29 +22,30 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
+        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "ThatChair"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ThatChair&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="756e7efa-5a42-4fa1-81c0-9f878b1b43a2" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/ThatChair/ChairLib-Kotlin.git",
-    "accountId": "756e7efa-5a42-4fa1-81c0-9f878b1b43a2"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ThatChair/ChairLib-Kotlin.git&quot;,
+    &quot;accountId&quot;: &quot;756e7efa-5a42-4fa1-81c0-9f878b1b43a2&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -55,28 +55,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.CubicSplineTest.executor": "Run",
-    "Gradle.CubicSplineTest.getAngle1.executor": "Run",
-    "Gradle.CubicSplineTest.testToString.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Gradle.AngleTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CubicSplineTest.aaa.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CubicSplineTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CubicSplineTest.getAngle1.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CubicSplineTest.testToString.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/teamm/IdeaProjects/ChairLib-Kotlin/src/main/kotlin/math/units&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   },
-  "keyToStringList": {
-    "kotlin-gradle-user-dirs": [
-      "C:\\Users\\teamm\\.gradle"
+  &quot;keyToStringList&quot;: {
+    &quot;kotlin-gradle-user-dirs&quot;: [
+      &quot;C:\\Users\\teamm\\.gradle&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\teamm\IdeaProjects\ChairLib-Kotlin\src\main\kotlin\math\units" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -84,10 +94,35 @@
       <recent name="math.spline" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="math.units" />
       <recent name="math" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CubicSplineTest">
+  <component name="RunManager" selected="Gradle.AngleTest">
+    <configuration name="AngleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;math.units.AngleTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="CubicSplineTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -102,6 +137,30 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;math.CubicSplineTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="CubicSplineTest.aaa" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;math.spline.CubicSplineTest.aaa&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -162,6 +221,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.AngleTest" />
+        <item itemvalue="Gradle.CubicSplineTest.aaa" />
         <item itemvalue="Gradle.CubicSplineTest" />
         <item itemvalue="Gradle.CubicSplineTest.getAngle1" />
         <item itemvalue="Gradle.CubicSplineTest.testToString" />
@@ -201,13 +262,31 @@
       <option name="project" value="LOCAL" />
       <updated>1718430832721</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="i was in tests not main....">
+      <option name="closed" value="true" />
+      <created>1718431833818</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1718431833818</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added more stuff from other things ive worked on">
+      <option name="closed" value="true" />
+      <created>1718488679622</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1718488679622</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="removed todo" />
     <MESSAGE value="added CubicSpline and unit tests" />
     <MESSAGE value="added spline package" />
-    <option name="LAST_COMMIT_MESSAGE" value="added spline package" />
+    <MESSAGE value="i was in tests not main...." />
+    <MESSAGE value="added more stuff from other things ive worked on" />
+    <option name="LAST_COMMIT_MESSAGE" value="added more stuff from other things ive worked on" />
   </component>
 </project>
